@@ -1,0 +1,5 @@
+1. Name mangling
+
+2. Dynamic Class and Instance Attributes
+
+3. @Property annotationen - setter / getter relation
