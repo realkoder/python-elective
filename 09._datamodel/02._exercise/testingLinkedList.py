@@ -18,4 +18,4 @@ myLinkedList.append(new_node)
 
 print(f'This is size after append {len(myLinkedList)}')
 
-print(f'Data at index 1: {myLinkedList[0::1]}')
+print(f'Data at index 1: {myLinkedList[-1].data}')

@@ -72,6 +72,9 @@ class LinkedList():
         current_index = 0
         current_node = self.head
 
+        if index < 0:
+                index = len(self) + index
+
         while current_node is not None:
             if current_index == index:
                 return current_node
