@@ -83,4 +83,34 @@ class LinkedList():
             current_node = current_node.next
 
         raise IndexError("Index out of range")
+    
+    def __setitem__(self, index, node):
+        if index < 0 or index >= len(self):
+            raise IndexError("Index out of range")
+
+        current_index = 0
+        current_node = self.head
+
+        while current_node is not None:
+            if current_index == index:
+                current_node.data = node.data
+                return
+
+            current_index += 1
+            current_node = current_node.next
+
+        raise IndexError("Index out of range")
+    
+    def __str__(self):
+        nodes = []
+        current_node = self.head
+
+        while current_node is not None:
+            nodes.append(str(current_node.data))
+            current_node = current_node.next
+
+        return '[' + ', '.join(nodes) + ']'
+
+    def __repr__(self):
+        return f'LinkedList([{", ".join(repr(node.data) for node in self)}])'
 
