@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
+# Excluding large file
+11._pynodebook/Police_Department_Incident_Reports__Historical_2003_to_May_2018_20240415.csv
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
