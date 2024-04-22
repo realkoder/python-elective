@@ -4,6 +4,9 @@
 # Excluding large file
 11._pynodebook/Police_Department_Incident_Reports__Historical_2003_to_May_2018_20240415.csv
 
+# Excluding created venv
+11.2_Python_Web_Development/students_flaks_api_exercise/flaks-api-venv/
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
